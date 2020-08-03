@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital@0;1&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {font-size: 16px;}
+/* creating background */
+
+.partly-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 45vw;
+    height: 80vh;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/* prevent scroll */
+
+html,body {overflow-y:hidden}
+
+/* creating grid template */
+
+.wrapper {
+    display: grid;
+    grid-template-rows: 10vh 80vh 80vh 10vh;
+    grid-template-columns: 5vw 30vw 30vw 30vw 5vw;
+}
+
+header {
+    grid-column: 2 / 5;
+    grid-row: 1 / 2;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    /* background-color: green; */
+    transform: rotate(270deg);
+    transform-origin: 0 0;
+    width: 5vw;
+    top: 50vh;
+    position: fixed;
+}
+
+aside nav {
+    min-width: 200px;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+aside nav ul li{
+    transform-origin: 0 0;
+}
+
+main {
+    grid-column: 2 / 5;
+    grid-row: 2 / 3;
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+main article {
+    width: 45vw;
+    height: 80vh;
+    border: 2px solid rgb(131,58,180);
+    border-right: none;
+    padding: 20px;
+}
+
+footer {
+    grid-column: 2 / 5;
+    grid-row: 3 / 4;
+    margin-top: 20px;
+}
+/* for paticular page */
+
+.userCash {
+    position: absolute;
+    bottom: 0;
+}
+
+#userPhoto {
+    position: absolute;
+    top: 15vh;
+    left: 30vw;
+    z-index: 2;
+}
+
+#userPhoto img {
+    max-width: 30vw;
+    min-width: 400px;
+    max-height: 80vh;
+    filter: grayscale(.75);
+}
+
+.bigHeader {
+    position: absolute;
+    top: 75vh;
+    left: 60vw;
+    transform: rotate(270deg);
+    transform-origin: 0 0;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 300%;
+}
+
+/* -----------------------add fonts */
+.logo {
+    margin-top: 10px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5rem;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#userName, #userCash {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4rem;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description, nav, footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: rgb(131,58,180);
+    font-style: italic;
+}
+
+a {
+    color: rgb(131,58,180);
+    text-decoration: none;
+    font-style: normal;
+}
+
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}

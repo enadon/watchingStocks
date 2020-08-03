@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/portfolioPage.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <header>
+            <div class="logo">logo</div>
+            <nav>
+                <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <aside>
+            <nav>
+                <ul>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="user.html">User: <img id="smallPhoto"></img></a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <article class="user">
+                <div id="userName"> My portfolio</div>
+                <div id="portfolioAll"> </div>
+                <div class="userCash"><div class="description">User cash:</div> <div id="userCash"> </div></div>
+                <div class="partly-background">
+                    <div id="allStockInfo">Click on stock to get more info!</div>
+                    <div class="drawButtons">
+                        <button id="drawDay">1 day</button>
+                        <button id="drawMonth">1 month</button>
+                        <button id="drawYear">1 year</button>
+                    </div>
+                    <div id="chart"></div>
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            © Olena Nadon, 2020
+        </footer>
+
+    </div>
+
+</body>
+<script src="../scripts/portfolio.js"></script>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="../scripts/drawChart.js"></script>
+</html>

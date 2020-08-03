@@ -1,0 +1,34 @@
+{
+  
+    "69": {
+      "cash": 946.45,
+      "picture": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.cincinnatizoo.org%2Fwp-content%2Fuploads%2Focelot-Cassandre-Crawford.jpg&f=1&nofb=1",
+      "name": "Bird Ramsey",
+      "stock": ["SPY", "XOM", "MCD", "KO"]
+    },
+    "1986": {
+      "cash": 499.49,
+      "picture": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.cincinnatizoo.org%2Fwp-content%2Fuploads%2Focelot-Cassandre-Crawford.jpg&f=1&nofb=1",
+      "name": "Lillian Burgess",
+      "stock": ["XLK", "XOM", "AMZN"]
+    },
+    "3040": {
+      "cash": 820.18,
+      "picture": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.cincinnatizoo.org%2Fwp-content%2Fuploads%2Focelot-Cassandre-Crawford.jpg&f=1&nofb=1",
+      "name": "Kristie Cole", 
+      "stock": ["XLK", "TSLA"]
+    },
+    "202": {
+      "cash": 277.32,
+      "picture": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.cincinnatizoo.org%2Fwp-content%2Fuploads%2Focelot-Cassandre-Crawford.jpg&f=1&nofb=1",
+      "name": "Leonor Cross",
+      "stock": ["TSLA", "AAPL", "PM", "D", "MDB"]
+    },
+    "358": {
+      "cash": 972.47,
+      "picture": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fblog.cincinnatizoo.org%2Fwp-content%2Fuploads%2Focelot-Cassandre-Crawford.jpg&f=1&nofb=1",
+      "name": "Marsh Mccall",
+      "stock": ["NFLX", "FB", "INTC"]
+    }
+
+}

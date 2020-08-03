@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+.portfolioRow, #allStockInfo {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: rgb(131,58,180);
+}
+
+.portfolioRow {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.portfolioRow:hover {
+    background-color: thistle;
+    cursor: pointer;
+}
+
+#portfolioAll {
+    max-width: 75%;
+}
+
+#smallPhoto {
+    width: 5vh;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+aside ul, aside ul li a{
+    display: flex;
+    align-items: center;
+}
+
+.portfolioChangeGreen {color: green}
+.portfolioChangeRed {color: red;}
+
+#allStockInfo {
+    margin: 40px auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5%;
+    min-width: 200px;
+    max-width: 75%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    column-count: 2;
+}
+
+.qualitativeCharacteristic {
+    margin-bottom: 5px;
+} 
+
+.qualitativeCharacteristic:hover {
+    background-color: thistle;
+    border: rgb(131,58,180);
+    border-radius: 4px;
+    padding: 3px;
+}
+
+#choosen {
+    background-color: thistle;
+}
+
+#chart {
+    width: 85%;
+    margin: 30px auto;
+}
+
+#chart svg {
+    border-radius: 20px;
+}
+
+.drawButtons {
+    min-width: 200px;
+    max-width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.drawButtons button {
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    padding: 10px;
+    transition: all 0.9s ease-out;
+    border: none;
+    border-radius: 10px;
+    color: rgb(131,58,180);
+}
+
+.drawButtons button:hover {
+    color: white !important;
+    background: linear-gradient(90deg, rgba(131,58,180,0.6730042358740371) 0%, rgba(253,29,29,0.7234244039412641) 50%, rgba(252,176,69,0.4573179613642332) 100%);
+}
